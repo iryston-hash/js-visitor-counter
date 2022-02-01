@@ -1,0 +1,117 @@
+* {
+   font-family: 'Genos', sans-serif;
+   box-sizing: border-box;
+}
+
+body {
+    background: rgb(73, 61, 44);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span {
+    text-decoration: underline;
+    text-shadow: 2px 2px 10px black;
+}
+
+h1 {
+    display: block;
+    max-width: max-content;
+    margin: 3px auto;
+    padding: 5px;
+    letter-spacing: 1px;
+    border: black 5px solid;
+    box-shadow: black 2px 2px 10px;
+    border-radius: 5px;
+
+}
+
+h2 ,p{
+    color: white;
+}
+.main-line {
+    background: linear-gradient(143deg, #000000, #794000, #000000);
+    background-size: 100% 3%;
+    border-radius: 10px;
+    filter: blur(10px);
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-line-footer {
+    background: linear-gradient(143deg, #000000, #794000, #000000);
+    background-size: 100% 3%;
+    border-radius: 10px;
+    filter: blur(10px);
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+#count-el {
+    font-size: 4rem;
+}
+
+.container {
+    position: relative;
+    
+
+}
+
+#increment-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: larger;
+    background: rgb(136, 0, 0);
+    border: rgb(0, 0, 0) 7px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    opacity: .7;
+    transition: .3s;
+}
+    #increment-btn:hover {
+        cursor: pointer;
+        opacity: 1;
+        
+    }
+
+#save-btn {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: larger;
+    background: rgb(0, 167, 22);
+    border: rgb(0, 0, 0) 7px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    opacity: .7;
+    transition: .3s;
+    margin-bottom: 56px;
+
+}
+#save-btn:hover {
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+dsdsdssssssssssssss
+
+#station_img {
+    filter: blur(1.2px);
+    width: 40%;
+    border-radius: 10%;
+    border: black 2px solid;
+    box-shadow: 2px 2px 20px black;
+    
+}
